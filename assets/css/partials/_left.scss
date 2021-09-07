@@ -10,7 +10,6 @@
 }
 @media only screen and (min-width: 786px) {
   .left {
-    overflow: hidden;
     margin: 0.8rem;
     width: 50%;
     display: flex;
@@ -24,7 +23,6 @@
 }
 
 .left {
-  overflow: hidden;
   margin: 0.8rem;
   display: flex;
   justify-content: center;
@@ -34,6 +32,7 @@
 
 .left-content {
   display: flex;
+  justify-content: center;
   height: 100%;
   flex-flow: column;
 }
@@ -156,4 +155,13 @@
   width: 20px;
   filter: invert(0.5);
   background: url("../../assets/images/search.svg") center / contain no-repeat;
+}
+.new{
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #fff;
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 5rem;
+  border-radius: $rounded-full;
 }

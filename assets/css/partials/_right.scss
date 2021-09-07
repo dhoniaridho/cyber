@@ -4,8 +4,6 @@
     margin: auto;
   }
 }
-@media only screen and (min-width: 786px) {
-}
 @media only screen and (min-width: 920px) {
   .right {
     width: 50%;
@@ -121,6 +119,7 @@
   width: 1.3rem;
 }
 .todo-add {
+box-shadow: 0 10px 10px rgba(152, 1, 252, 0.308);
   color: white;
   background: rgb(152, 1, 252);
   padding: 0.6rem;
@@ -158,7 +157,7 @@
   top: 0;
   left: 0;
   height: 25px;
-  border-radius: 100%;
+  border-radius: $rounded-full;
   width: 25px;
   background-color: #eee;
 }

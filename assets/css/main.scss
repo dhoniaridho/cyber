@@ -114,6 +114,7 @@ video {
 }
 .content-wraper {
   display: flex;
+  width: 100%;
   justify-content: center;
   border-radius: 0.8rem;
   min-height: calc(100vh - 3rem);

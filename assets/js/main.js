@@ -37,7 +37,9 @@ const Todo = () => {
           ? "primary"
           : randomStatus === 2
           ? "danger"
-          : randomStatus === 3 ? "secondary" : ''
+          : randomStatus === 3
+          ? "secondary"
+          : ""
       }">${StrStatus[randomStatus]}</div></li>`;
   });
 

@@ -12,7 +12,6 @@
 
 @media only screen and (min-width: 786px) {
   .left {
-    overflow: hidden;
     margin: 0.8rem;
     width: 50%;
     display: -webkit-box;
@@ -30,7 +29,6 @@
 }
 
 .left {
-  overflow: hidden;
   margin: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,6 +44,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -223,6 +224,16 @@
   background: url("../../assets/images/search.svg") center/contain no-repeat;
 }
 
+.new {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #fff;
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 5rem;
+  border-radius: 999px;
+}
+
 @media only screen and (max-width: 768px) {
   .right {
     width: 90%;
@@ -393,6 +404,8 @@
 }
 
 .todo-add {
+  -webkit-box-shadow: 0 10px 10px rgba(152, 1, 252, 0.308);
+          box-shadow: 0 10px 10px rgba(152, 1, 252, 0.308);
   color: white;
   background: #9801fc;
   padding: 0.6rem;
@@ -435,7 +448,7 @@
   top: 0;
   left: 0;
   height: 25px;
-  border-radius: 100%;
+  border-radius: 999px;
   width: 25px;
   background-color: #eee;
 }
@@ -594,6 +607,7 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
