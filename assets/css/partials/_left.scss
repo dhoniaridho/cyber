@@ -40,7 +40,7 @@
     border-radius: 0.5rem;
     border: none;
     background-color: $bg-secondary;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 3rem;
     outline: none;
 }
 .searchbox::placeholder{
@@ -96,6 +96,7 @@
     margin-left: auto;
 }
 .header{
+    width: 100%;
     height: 2rem;
     display: flex;
     justify-content: start;
@@ -117,3 +118,18 @@
         font-weight: 500;
     }
 }
+.search-label {
+    position: relative;
+  }
+  
+  .search-label:before {
+    content: "";
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    filter: invert(0.5);
+    background: url("../../assets/images/search.svg") center / contain no-repeat;
+  }

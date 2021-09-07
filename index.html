@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <script src="./assets/js/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,17 +22,21 @@
                 <div class="left-content">
                     <div class="header">
                         <button class="menu-button">
-                            <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                              </svg>
+                            <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
                         </button>
                     </div>
                     <div class="left-container">
                         <div class="greeting">
                             <h1 class="gretting-name">Hi Samantha</h1>
                             <h5 class="welcome">Welcome back to the workspace, we missed You!</h5>
-                            <input placeholder="Search Task or Projects" class="searchbox" type="text" name="searchbox"
-                                id="">
+                            <label class="search-label" for="search">
+                                <input placeholder="Search Task or Projects" class="searchbox" type="text" name="searchbox"
+                                    id="search">
+                            </label>
                         </div>
                         <div class="projects">
                             <h3 class="project-header">Projects<span>(13)</span></h3>
@@ -78,24 +83,57 @@
                 </div>
             </div>
             <div class="right">
-                <div class="right-header">
-                    <h1>Cyberpunk</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti nulla facilis quasi, aut error rerum dicta rem</p>
-                </div>
-                <div>
-                    <div class="todo-header">
-                        <h1>Today</h1>
-                        <button class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
-                              </svg>
-                        </button>
+                <div class="right-container">
+                    <div class="wraper">
+                        <div class="right-header">
+                            <div class="right-header-title">
+                                <h1>Cyberpunk</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deleniti nulla facilis
+                                    quasi, aut error rerum dicta rem</p>
+                            </div>
+                            <div class="peoples">
+                                <img class="people"
+                                    src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" alt="">
+                                <img class="people"
+                                    src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" alt="">
+                                <img class="people"
+                                    src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" alt="">
+                                <img class="people"
+                                    src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="todo-header">
+                            <h1>Today</h1>
+                            <button class="todo-menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="todos" id="todos">
+                            <li class="todo">
+                                <label class="check">
+                                    <input onchange="scribbleNow(this)" type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                    <p>Create initial layout for homepage</p>
+                                  </label>
+                            </li>
+                        </ul>
+                        <div class="right-footer">
+                            <button onclick="addTodos()" class="todo-add">
+                                <svg class="button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

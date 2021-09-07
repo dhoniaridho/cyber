@@ -1,5 +1,6 @@
 @import 'variables';
 @import './partials/left';
+@import './partials/right';
 
 *{
     margin: 0;
@@ -11,6 +12,7 @@
     border: 0;
     padding: 0;
     background: inherit;
+    list-style: none;
 }
 .container{
     background: #E1E2EE;
