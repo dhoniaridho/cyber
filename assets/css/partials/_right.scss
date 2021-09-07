@@ -107,13 +107,15 @@
 }
 .peoples {
   display: flex;
-  .people {
-    margin-right: -0.2rem;
-    border-radius: 100%;
-    width: 2rem;
-    object-fit: cover;
-    box-shadow: 0 0 0 2pt rgb(255, 255, 255);
-  }
+  place-items: center;
+  justify-content: center;
+}
+.people {
+  margin-right: -0.2rem;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 0 0 2pt rgb(255, 255, 255);
 }
 .todo-menu {
   width: 1.3rem;
