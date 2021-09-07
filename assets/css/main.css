@@ -1,1 +1,214 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.left-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.left {
+  overflow: hidden;
+  margin: 0.8rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  color: #ffffff;
+}
+
+.left-container {
+  padding: 1rem 6rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.gretting-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.welcome {
+  margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #98b3da;
+}
+
+.right {
+  margin: 0.8rem;
+  border-radius: 0.8rem;
+  width: 50%;
+  background: #ffffff;
+}
+
+.searchbox {
+  margin-top: 1.4rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #3A3F54;
+  padding: 0.8rem 1.5rem;
+  outline: none;
+}
+
+.searchbox::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.searchbox:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.searchbox::-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.searchbox::placeholder {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.gretting h1 {
+  font-weight: bold;
+}
+
+.project-header {
+  margin-top: 2.4rem;
+  color: #ffffff;
+}
+
+.project-header span {
+  color: #98b3da;
+}
+
+.project-lists {
+  margin-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (minmax(0, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.project-initial {
+  font-weight: bold;
+  background: #035aac;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  padding: 3rem;
+  width: 0.1rem;
+  height: 0.1rem;
+}
+
+.project-initial:hover {
+  -webkit-box-shadow: 0 0 0 2pt #008f99, inset 0 0 0 5px #252A41;
+          box-shadow: 0 0 0 2pt #008f99, inset 0 0 0 5px #252A41;
+  cursor: pointer;
+}
+
+.project-title {
+  width: 100%;
+  margin-top: 1rem !important;
+  font-size: 0.9rem;
+  text-align: center !important;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.header {
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  place-items: center;
+}
+
+.menu-button {
+  color: white;
+  border-radius: 0.5rem;
+  padding: 5px;
+  background: #3A3F54;
+}
+
+.button-icon {
+  width: 1.4rem;
+  height: 1.2rem;
+}
+
+.right-header h1 {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  font-size: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: inherit;
+  border: 0;
+  padding: 0;
+  background: inherit;
+}
+
+.container {
+  background: #E1E2EE;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+}
+
+.content-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.8rem;
+  width: 80%;
+  height: calc( 100vh - 3rem);
+  background-color: #252A41;
+  -webkit-box-shadow: 1px 1px 16px #949494;
+          box-shadow: 1px 1px 16px #949494;
+}
+/*# sourceMappingURL=main.css.map */

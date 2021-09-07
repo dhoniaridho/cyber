@@ -1,0 +1,30 @@
+@import 'variables';
+@import './partials/left';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: inherit;
+    font-size: inherit;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: inherit;
+    border: 0;
+    padding: 0;
+    background: inherit;
+}
+.container{
+    background: #E1E2EE;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.content-wraper {
+    display: flex;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: calc( 100vh - 3rem);
+    background-color: #252A41;
+    box-shadow: 1px 1px 16px rgb(148, 148, 148);
+}
