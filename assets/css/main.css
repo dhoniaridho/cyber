@@ -116,7 +116,8 @@
 }
 
 .project-lists {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
+  margin: 0.1rem;
   display: -ms-grid;
   display: grid;
   gap: 1rem;
@@ -232,6 +233,25 @@
   margin-top: -6rem;
   margin-left: 5rem;
   border-radius: 999px;
+}
+
+@media only screen and (max-width: 520px) {
+  .right-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .peoples {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .right-header-title {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -367,7 +387,7 @@
 }
 
 .todo-header {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 0.5rem;
   margin-top: 3rem;
   display: -webkit-box;
@@ -381,6 +401,7 @@
 
 .todo-header h1 {
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 .peoples {
