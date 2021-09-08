@@ -314,7 +314,7 @@
   place-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: end;
+          justify-content: flex-end;
 }
 
 .todos {
@@ -438,7 +438,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  place-items: end;
+  place-items: flex-end;
   margin-top: 1rem;
   margin-right: -1rem;
   border-radius: 1rem;
